@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
         metric = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(metric);
 
-        //获取控件
+        //find view id
         scrollView = (ScrollView) findViewById(R.id.sc);
         img = (ImageView) findViewById(R.id.image);
 
